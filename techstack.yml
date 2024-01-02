@@ -1,0 +1,701 @@
+repo_name: AlexcastroDev/codefee-kit
+report_id: b2029925519542afd8438cde84f6b289
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-02T14:24:06+00:00'
+requested_by: DriLLFreAK100
+provider: github
+branch: main
+detected_tools_count: 52
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 17.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-01-11 15:30:22.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2020-10-05 16:35:44.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2020-10-05 16:35:44.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 6.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-02-18 09:35:43.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-03-05 09:57:14.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2020-10-05 16:35:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.44.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2020-10-05 16:35:44.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-02-18 09:35:43.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 11.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@storybook/addon-storysource"
+  description: Stories addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-storysource
+  version: 6.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16977/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 6.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@storybook/theming"
+  description: Core Storybook Components
+  package_url: https://www.npmjs.com/@storybook/theming
+  version: 6.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17754/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@types/lodash-es"
+  description: TypeScript definitions for lodash-es
+  package_url: https://www.npmjs.com/@types/lodash-es
+  version: 4.17.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17516/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-03 16:08:22.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@types/styled-components"
+  description: TypeScript definitions for styled-components
+  package_url: https://www.npmjs.com/@types/styled-components
+  version: 5.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-03 16:08:22.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.4.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-01-11 15:30:22.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 2.3.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: eslint-loader
+  description: ESlint loader for webpack
+  package_url: https://www.npmjs.com/eslint-loader
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15889/default_724d5bc657ec09174564f19f2a5d26098549124a.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.21.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: lodash-es
+  description: Lodash exported as ES modules
+  package_url: https://www.npmjs.com/lodash-es
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-02-18 09:35:43.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: rollup-plugin-peer-deps-external
+  description: Rollup plugin to automatically add a library's peerDependencies to
+    its bundle's external config
+  package_url: https://www.npmjs.com/rollup-plugin-peer-deps-external
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16508/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: rollup-plugin-postcss
+  description: Seamless integration between Rollup and PostCSS
+  package_url: https://www.npmjs.com/rollup-plugin-postcss
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16135/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: rollup-plugin-terser
+  description: Rollup plugin to minify generated es bundle
+  package_url: https://www.npmjs.com/rollup-plugin-terser
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: rollup-plugin-visualizer
+  description: "[![NPM Version]"
+  package_url: https://www.npmjs.com/rollup-plugin-visualizer
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17643/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-11 15:02:53.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 10.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: standard-version
+  description: Replacement for `npm version` with automatic CHANGELOG generation
+  package_url: https://www.npmjs.com/standard-version
+  version: 9.3.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-04-24 13:35:40.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2022-02-18 09:35:43.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.1.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-02-28 16:52:26.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/AlexcastroDev/codefee-kit/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: DriLLFreAK100
+  last_updated_on: 2021-10-02 12:40:52.000000000 Z
