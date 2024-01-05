@@ -50,7 +50,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [AlexcastroDev/codefee-kit](https://github.com/AlexcastroDev/codefee-kit)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|52<br/>Tools used|01/02/24 <br/>Report generated|
+|53<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -211,9 +211,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (35)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (36)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (35)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (36)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -238,6 +238,7 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.21.3|04/11/22|DriLLFreAK100 |MIT|N/A|
 |[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.1.2|04/11/22|DriLLFreAK100 |MIT|N/A|
 |[file-loader](https://www.npmjs.com/file-loader)|v6.1.0|10/02/21|DriLLFreAK100 |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.3.0|10/02/21|DriLLFreAK100 |MIT|N/A|
 |[lodash-es](https://www.npmjs.com/lodash-es)|v4.17.21|02/18/22|DriLLFreAK100 |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v16.13.1|04/11/22|DriLLFreAK100 |MIT|N/A|
 |[rimraf](https://www.npmjs.com/rimraf)|v3.0.2|10/02/21|DriLLFreAK100 |ISC|N/A|
